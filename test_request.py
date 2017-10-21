@@ -11,7 +11,7 @@ class TestRequest(unittest.TestCase):
             '2017-09-20'
         )
         request.columns = ['day']
-        self.assertEquals(len(request.columns), 1)
+        self.assertEqual(len(request.columns), 1)
 
 
 if __name__ == '__main__':
