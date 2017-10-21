@@ -19,7 +19,7 @@ class Request:
         self.report_type: str = self.REPORT_PUBLISHER
 
     def make(self) -> requests.Response:
-        return requests.get(self.URL, params=self.__payload())
+        return requests.get(self.URL, params=self.payload())
 
     def columns_to_string(self) -> str:
         return ','.join(map(str, self.columns))
@@ -31,5 +31,5 @@ class Request:
             'end': self.end,
             'format': self.format,
             'report_type': self.report_type,
-            'columns': self.__columns_to_string()
+            'columns': self.columns_to_string()
         }
