@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/mxkh/applovin-py-sdk.svg?branch=master)](https://travis-ci.org/mxkh/applovin-py-sdk)
 
-###Simple Python SDK that helps make requests to Applovin mobile ad network
+### Simple Python SDK that helps make requests to Applovin mobile ad network
 
 # Example 1
 ```python
