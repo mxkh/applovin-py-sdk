@@ -1,5 +1,8 @@
 language: python
-  python:
-    - 3.6
-  script:
-    - python test_request.py
+python:
+  - 3.6
+script:
+  - python test_request.py
+install:
+  - pip install pipenv
+  - pipenv install requests
