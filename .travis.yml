@@ -2,7 +2,7 @@ language: python
 python:
   - 3.6
 script:
-  - mypy make_request.py
+  - mypy sdk/request.py
   - python setup.py test
 install:
   - pip install pipenv
