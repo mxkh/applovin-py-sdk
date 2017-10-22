@@ -7,7 +7,7 @@ setup(
     name='applovin-py-sdk',
     version=sdk.__version__,
     packages=find_packages(),
-    long_description=open(join(dirname(__file__), 'README.rst')).read(),
+    long_description=open(join(dirname(__file__), 'README.md')).read(),
     install_requires=[
         'requests==2.18.4'
     ],
