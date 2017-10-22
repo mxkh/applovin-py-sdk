@@ -3,8 +3,7 @@ python:
   - 3.6
 script:
   - mypy make_request.py
-  - python test_request.py
+  - python setup.py test
 install:
   - pip install pipenv
-  - pipenv install requests
   - pip install mypy

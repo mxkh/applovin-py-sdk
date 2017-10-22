@@ -1,6 +1,5 @@
 import unittest
-
-from request import Request
+from sdk.request import Request
 
 
 class TestRequest(unittest.TestCase):
